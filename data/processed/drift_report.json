@@ -1,0 +1,127 @@
+{
+  "metrics": [
+    {
+      "id": "15e89f895b482f9b84ba7274ed18a106",
+      "metric_name": "DriftedColumnsCount(drift_share=0.5)",
+      "config": {
+        "type": "evidently:metric_v2:DriftedColumnsCount",
+        "drift_share": 0.5
+      },
+      "value": {
+        "count": 1.0,
+        "share": 0.1
+      }
+    },
+    {
+      "id": "80024a46004de2969692cb245ef501c8",
+      "metric_name": "ValueDrift(column=longitude,method=Wasserstein distance (normed),threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "longitude",
+        "method": "Wasserstein distance (normed)",
+        "threshold": 0.1
+      },
+      "value": 0.011849831106927708
+    },
+    {
+      "id": "1834557e618d7312b8a45c1ff1ebd649",
+      "metric_name": "ValueDrift(column=latitude,method=Wasserstein distance (normed),threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "latitude",
+        "method": "Wasserstein distance (normed)",
+        "threshold": 0.1
+      },
+      "value": 0.014157990942862153
+    },
+    {
+      "id": "066cf4b77d0d309446df056f57a392a2",
+      "metric_name": "ValueDrift(column=housing_median_age,method=Wasserstein distance (normed),threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "housing_median_age",
+        "method": "Wasserstein distance (normed)",
+        "threshold": 0.1
+      },
+      "value": 0.013934295200282906
+    },
+    {
+      "id": "3831b72733c7eea64e689ebe3c3a0ace",
+      "metric_name": "ValueDrift(column=total_rooms,method=Wasserstein distance (normed),threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "total_rooms",
+        "method": "Wasserstein distance (normed)",
+        "threshold": 0.1
+      },
+      "value": 0.009291495533073254
+    },
+    {
+      "id": "a496911f53efcb00f80857441a766c2c",
+      "metric_name": "ValueDrift(column=total_bedrooms,method=Wasserstein distance (normed),threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "total_bedrooms",
+        "method": "Wasserstein distance (normed)",
+        "threshold": 0.1
+      },
+      "value": 0.010701492130633396
+    },
+    {
+      "id": "e4371424b2f504914c22082c3086b960",
+      "metric_name": "ValueDrift(column=population,method=Wasserstein distance (normed),threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "population",
+        "method": "Wasserstein distance (normed)",
+        "threshold": 0.1
+      },
+      "value": 0.008317003309699266
+    },
+    {
+      "id": "0b1feab85e68960b5ba2e790b5a2c6ff",
+      "metric_name": "ValueDrift(column=households,method=Wasserstein distance (normed),threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "households",
+        "method": "Wasserstein distance (normed)",
+        "threshold": 0.1
+      },
+      "value": 0.00934651005381903
+    },
+    {
+      "id": "3d1d63593212b593a1d58981f4a7810e",
+      "metric_name": "ValueDrift(column=median_income,method=Wasserstein distance (normed),threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "median_income",
+        "method": "Wasserstein distance (normed)",
+        "threshold": 0.1
+      },
+      "value": 2.4887613593920404
+    },
+    {
+      "id": "eaf53c937bb4dfa72550678b798ca46d",
+      "metric_name": "ValueDrift(column=median_house_value,method=Wasserstein distance (normed),threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "median_house_value",
+        "method": "Wasserstein distance (normed)",
+        "threshold": 0.1
+      },
+      "value": 0.008664605697977994
+    },
+    {
+      "id": "987e0d250c34fedd912c84657b7babe0",
+      "metric_name": "ValueDrift(column=ocean_proximity,method=Jensen-Shannon distance,threshold=0.1)",
+      "config": {
+        "type": "evidently:metric_v2:ValueDrift",
+        "column": "ocean_proximity",
+        "method": "Jensen-Shannon distance",
+        "threshold": 0.1
+      },
+      "value": 0.00395553777412451
+    }
+  ],
+  "tests": []
+}
