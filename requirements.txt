@@ -1,0 +1,11 @@
+pandas
+numpy
+scikit-learn
+pyyaml
+evidently==0.7.0
+mlflow
+seaborn
+matplotlib
+prefect
+fastapi
+uvicorn
